@@ -17,7 +17,7 @@
     </head>
     <style>
         .dnone{
-            visibility: hidden;
+            display: none;
         }
         div{
             width: 100%;
@@ -47,7 +47,7 @@
                 var r=confirm("You want to delete this Message?");
                 if (r==true)
                 {
-                    $(this).parent().innerHTML="";
+                    
                     $(this).parent().addClass("dnone");
                     var xmlhttp;
                     if (window.XMLHttpRequest)
